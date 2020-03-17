@@ -6,8 +6,9 @@
   "scripts": {
     "theme_watch" : "theme watch --vars env/.env",
     "theme_open" : "theme open --vars env/.env",
-    "theme_download" : "theme download --vars env/.env --env=production",
-    "theme_get" : "theme get --list --vars env/.env"
+    "deploy" : "theme deploy --vars env/.env --env=production",
+    "deploy:dev" : "theme deploy --vars env/.env --env=development",
+    "theme_download" : "theme download --vars env/.env --env=production"
   },
   "repository": {
     "type": "git",
