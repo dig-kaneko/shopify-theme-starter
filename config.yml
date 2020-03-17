@@ -7,3 +7,4 @@ production:
   store: ${STORE_NAME}
   password: ${STORE_PASSWORD}
   theme_id: ${PROD_THEME_ID}
+ 
