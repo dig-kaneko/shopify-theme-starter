@@ -1,0 +1,22 @@
+{
+  "name": "shopify-theme-starter",
+  "version": "1.0.0",
+  "description": "shopify-theme-starter",
+  "main": "index.js",
+  "scripts": {
+    "theme_watch" : "theme watch --vars env/.env",
+    "theme_open" : "theme open --vars env/.env",
+    "theme_download" : "theme download --vars env/.env --env=production",
+    "theme_get" : "theme get --list --vars env/.env"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ikuo00uk/shopify-theme-starter.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ikuo00uk/shopify-theme-starter/issues"
+  },
+  "homepage": "https://github.com/ikuo00uk/shopify-theme-starter#readme"
+}
