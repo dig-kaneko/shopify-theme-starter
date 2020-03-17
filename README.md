@@ -1,14 +1,17 @@
 # shopify-theme-starter
-shopify-theme-starter  
+:sunflower::rose: shopify-theme-starter :sunflower: :rose:
+
+## TL;DR  
+shopifyのテーマ管理をローカルで行うスターターキット  
 
 ## セットアップ  
 
-shopifyのthemekitをインストールしていない場合、インストール  
+shopifyのthemekitをインストールしていない場合、インストールすること:octopus:     
 `brew tap shopify/shopify`  
 `brew install themekit`  
 
 ## 注意点  
-.envファイルはgit ignoreしてあるため、cloneした後各自設定を行う。
+.envファイルはgit ignoreしてあるため、cloneした後各自設定を行いましょう。  
 
 ## 開発コマンド  
 
@@ -24,6 +27,8 @@ shopifyのthemekitをインストールしていない場合、インストー�
   
 `theme new --list -p={password} -s={store} -n={テーマ名}`  
 新しくテーマを作成する。  
-:fire: `config.ymlが上書きされるので元に戻すこと。`
+:fire: `config.ymlが上書きされるので元に戻すこと。` :fire:
 
-
+## ToDo  
+Shopify初心者なのでPR募集:sunglasses:  
+* [ ] css,jsのアセット管理（Typescript, scss）  
